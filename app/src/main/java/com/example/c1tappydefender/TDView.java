@@ -322,7 +322,7 @@ public class TDView extends SurfaceView implements Runnable {
     }
 
     //making the time look nicer
-    private String formatTime(long time){
+    public static String formatTime(long time){
         long seconds = (time) / 1000;
         long thousandths = (time) - (seconds * 1000);
         String strThousandths = "" + thousandths;

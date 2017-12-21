@@ -93,9 +93,9 @@ public class EnemyShip {
 
     public void scaleBitmap(int x){
         if(x < 1000) {
-            bitmap = Bitmap.createScaledBitmap(bitmap,bitmap.getWidth() / 3,bitmap.getHeight() / 4, false);
-        } else if (x < 1200){
-            bitmap = Bitmap.createScaledBitmap(bitmap,bitmap.getWidth() / 2,bitmap.getHeight() / 3, false);
+            bitmap = Bitmap.createScaledBitmap(bitmap,bitmap.getWidth() / 3,bitmap.getHeight() / 3, false);
+        } else if (x < 2000){
+            bitmap = Bitmap.createScaledBitmap(bitmap,bitmap.getWidth() / 2,bitmap.getHeight() / 2, false);
         }
     }
 }

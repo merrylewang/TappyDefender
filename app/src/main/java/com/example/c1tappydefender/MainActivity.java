@@ -30,7 +30,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
 
         final TextView textFastestTime = (TextView)findViewById(R.id.textHighScore);
 
-        textFastestTime.setText("Fastest Time:" + fastestTime);
+        textFastestTime.setText("Fastest Time:" + TDView.formatTime(fastestTime));
 
     }
 
